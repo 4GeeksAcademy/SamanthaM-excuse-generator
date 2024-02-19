@@ -28,14 +28,14 @@ let generateExcuse = () => {
   let TimIndex = Math.floor(Math.random() * Time.length);
 
   return (
-    Article(ArtIndx) +
-    "" +
-    Subject(SubIndx) +
-    "" +
-    Action(ActIndex) +
-    "" +
-    Posession(PosIndex) +
-    "" +
-    Time(TimIndex)
+    Article[ArtIndx] +
+    " " +
+    Subject[SubIndx] +
+    " " +
+    Action[ActIndex] +
+    " " +
+    Posession[PosIndex] +
+    " " +
+    Time[TimIndex]
   );
 };
